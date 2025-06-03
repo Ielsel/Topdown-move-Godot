@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://clgdwdln7qjqg"]
+
+[ext_resource type="Texture2D" uid="uid://cs7wajxu2lsyj" path="res://assets/mago.png" id="1_lrbv2"]
+[ext_resource type="Script" uid="uid://clfk3qtgvtr5o" path="res://scenes/jogador/jogador.gd" id="1_ug4wg"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ug4wg"]
+size = Vector2(159, 160)
+
+[node name="Jogador" type="CharacterBody2D"]
+z_index = 1
+script = ExtResource("1_ug4wg")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_lrbv2")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0.5, 0)
+shape = SubResource("RectangleShape2D_ug4wg")

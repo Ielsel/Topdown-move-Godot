@@ -1,0 +1,15 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1748923112
+icon.svg::CompressedTexture2D/CompressedTexture2D::8102043914695587613::1748907727::1748907740::1::::<><><>0<>0<>644067c4e04ffe1975af95ba8dd86845<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+::res://assets/::1748923028
+mago.png::CompressedTexture2D/CompressedTexture2D::6103636924027456457::1748911902::1748911903::1::::<><><>0<>0<>0e4ba960b24e7f7e71192924352a72d8<>res://.godot/imported/mago.png-9c559867d901100faa8e255b9b48a710.ctex::
+piso.png::CompressedTexture2D/CompressedTexture2D::8349462532847344518::1748911902::1748911903::1::::<><><>0<>0<>9f52d080eb3197c5a5b8d97aa06e7ca9<>res://.godot/imported/piso.png-45ca41b63dee43e764472952574bf59a.ctex::
+::res://scenes/::1748923027
+::res://scenes/estudo/::1748923027
+estudo.gd::GDScript::7021202870099043572::1748922066::0::1::::<>Node2D<><>0<>0<><>::
+estudo.tscn::PackedScene::1880365856550194278::1748922735::0::1::::<><><>0<>0<><>::uid://c7begknk2v1qu::::res://scenes/estudo/estudo.gd
+::res://scenes/jogador/::1748923027
+jogador.gd::GDScript::5555898578358188214::1748922700::0::1::::<>CharacterBody2D<><>0<>0<><>::
+jogador.tscn::PackedScene::5557526527570086186::1748922735::0::1::::<><><>0<>0<><>::uid://cs7wajxu2lsyj::::res://assets/mago.png<>uid://clfk3qtgvtr5o::::res://scenes/jogador/jogador.gd
+::res://scenes/jogo/::1748923027
+jogo.tscn::PackedScene::6924737728233198799::1748922735::0::1::::<><><>0<>0<><>::uid://clgdwdln7qjqg::::res://scenes/jogador/jogador.tscn<>uid://dq7sos237ekhq::::res://assets/piso.png
